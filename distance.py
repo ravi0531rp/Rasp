@@ -11,7 +11,7 @@ pinTrigger = 18
 pinTrigger2 = 21
 
 pinEcho = 24
-pinEcho2=25
+pinEcho2=13
 def close(signal, frame):
 	print("\nTurning off ultrasonic distance detection...\n")
 	GPIO.cleanup() 
